@@ -1,16 +1,17 @@
+
 import Home from './components/Home.vue'
-import SingleListing from './components/SingleListing.vue'
+import GameOver from './components/GameOver.vue'
 
 const routes = [
-  {
-    path: '/',
-    name: 'home',
-    component: Home
-  },
-  {
-    path: '/singlelisting/:category',
-    name: 'singlelisting',
-    component: SingleListing
+   {
+     path: '/',
+     name: 'home',
+     component: Home
+   },
+   {
+    path: 'gameover',
+    name: 'GameOver',
+    component: GameOver
   }
 ]
 
